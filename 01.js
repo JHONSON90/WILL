@@ -12,9 +12,24 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+ /* var newArray = [];
+
+  for (let i = 0; i < array.length; i++) {
+  if(array[i] === 0 || array[i] === 1 || array[i] === 2 ){
+    return newArray.push(array[i]);
+  }
+  
+  } return newArray*/
+
+  var newArray = array.filter(x => x === 0 ||x=== 1 || x===2|| x===3)
+   return newArray
+
+  //var numerosFiltrados = array.filter(x => x === Number(x))
+  //return numerosFiltrados
+
 }
 
 // No modifiques nada debajo de esta linea //
 
 
-module.exports = soloNumeros
+module.exports = soloNumeros  

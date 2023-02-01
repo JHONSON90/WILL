@@ -14,8 +14,31 @@ function buscarAmigo(amigos, nombre) {
   //  buscarAmigo(amigos, 'toni') debe devolver { nombre: 'toni', edad: 33 };
 
   // Tu código aca:
+
   
-}
+  return amigos.find(x => x.nombre == nombre)
+  
+  
+    /*var NewObject = Object.keys(amigos)
+
+    for (let i = 0; i < amigos.nombre.length; i++) {
+      if(amigos.nombre === nombre)
+      return NewObject;
+      
+    }
+
+      var Object = amigos.reduce((acc, item)=> {
+         acc[item.nombre] = item.nombre
+
+         return acc
+
+      }, {}) 
+
+      var getItemByNombre = (nombre)=> {
+        return Object[nombre]
+      }*/
+
+  }
 
 // No modifiques nada debajo de esta linea //
 

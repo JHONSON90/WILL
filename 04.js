@@ -14,6 +14,12 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  var numero = num.toString().split("").reverse().join('')
+  var resultado = parseInt(numero)
+
+  if (num === resultado){
+    return true;
+  } return false;
 }
 
 // No modifiques nada debajo de esta linea //
